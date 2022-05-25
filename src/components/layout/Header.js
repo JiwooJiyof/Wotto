@@ -85,6 +85,7 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
+            <h6>WOTTO</h6>
           {/*<Logo />*/}
           {!hideNav &&
             <>
