@@ -1,5 +1,5 @@
 // Buttons and Forms (shared settings)
-$button-form--height: 			48px;		// height of buttons and forms
+$button-form--height: 			100px;		// height of buttons and forms
 $button-form-sm--height: 		36px;		// height of buttons and forms (small)
 $button-form--border-width: 	1px;		// border width (if you wish not to display any border, just set colors to null instead of changing this value)
 $button-form--border-style: 	solid;		// border style
@@ -19,43 +19,43 @@ $button--bg: (
 	button-light: 			get-color(light, 1),
 	button-light-hover: 	darken(get-color(light, 1), 5%),
 	button-dark: 			get-color(dark, 2),
-	button-dark-hover: 		lighten(get-color(dark, 2), 2%),
+	button-dark-hover: 		lighten(get-color(dark, 2), 5%),
 	button-primary: 		get-color(primary, 1),
-	button-primary-hover: 	lighten(get-color(primary, 1), 2%),
+	button-primary-hover: 	lighten(get-color(primary, 1), 5%),
 	button-secondary: 		get-color(secondary, 1),
-	button-secondary-hover:	lighten(get-color(secondary, 1), 2%),
+	button-secondary-hover:	lighten(get-color(secondary, 1), 5%),
 	button-disabled: 		get-color(light, 3)
 );
 
 // Buttons: border color
 $button--border: (
-	button-light: 			transparent,	// button-light is default (.button), so if it's transparent you can set all other values to null
-	button-light-hover: 	null,
-	button-dark: 			null,
-	button-dark-hover: 		null,
-	button-primary: 		null,
-	button-primary-hover: 	null,
-	button-secondary: 		null,
-	button-secondary-hover: null,
-	button-disabled: 		null
+	button-light: 			get-color(light, 1),
+	button-light-hover: 	darken(get-color(light, 1), 5%),
+	button-dark: 			get-color(dark, 2),
+	button-dark-hover: 		lighten(get-color(dark, 2), 5%),
+	button-primary: 		get-color(primary, 1),
+	button-primary-hover: 	lighten(get-color(primary, 1), 5%),
+	button-secondary: 		get-color(secondary, 1),
+	button-secondary-hover:	lighten(get-color(secondary, 1), 5%),
+	button-disabled: 		get-color(light, 3)
 );
 
 // Buttons: font size
 $button--size: (
-	button:	'eta'
+	button:	'gamma'
 );
 
 // Buttons: font weight
 $button--weight: (
-	button:	600
+	button:	1000
 );
 
 // More buttons settings
-$button--padding-h: 			32px;		// button, left and right padding
+$button--padding-h: 			50px;		// button, left and right padding
 $button-sm--padding-h:			24px;		// button (small), left and right padding
 $button-w-form--padding-h:		24px;		// button, left and right padding in a form group (.form-group) - Overrides button default padding
 $button-sm-w-form--padding-h:	null;		// button (small), left and right padding in a form group (.form-group) - Overrides button default padding
-$button--radius: 				2px;		// button radius (never use null)
+$button--radius: 				20px;		// button radius (never use null)
 $button--transform: 			null;	    // button text-transform property (null is allowed)
 $button--max-size-mobile: 		280px;		// button max width on mobile (.button-wide-mobile)
 $button-group-padding: 			16px;		// padding between sibling buttons (nested into .button-group)
@@ -71,7 +71,7 @@ $form--color: (
 	input-inverse: 				get-color(dark, 3),
 	input-placeholder-inverse:	null,
 	label-inverse: 				get-color(dark, 3),
-    check-radio-inverse: 		get-color(dark, 3) 
+    check-radio-inverse: 		get-color(dark, 3)
 );
 
 // Forms: background color
@@ -83,7 +83,7 @@ $form--bg: (
 	switch:							get-color(dark, 3),
     switch-checked:					get-color(primary, 1),
     range-track:                    get-color(light, 2),
-    range-thumb:                    get-color(primary, 1),    
+    range-thumb:                    get-color(primary, 1),
 	// ↓ Inverted colors
 	input-inverse: 					null,
 	input-focus-inverse: 			null,
