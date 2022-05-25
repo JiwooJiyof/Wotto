@@ -51,12 +51,22 @@ const Hero = ({
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider'
   );
+  function handleScroll() {
+    window.scroll({
+      top: document.body.offsetHeight,
+      left: 0, 
+      behavior: 'smooth',
+    });
+  }
 
   return (
+    
+  
     <section
       {...props}
       className={outerClasses}
     >
+      
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
@@ -74,9 +84,10 @@ const Hero = ({
               <br/>
               <br/>
               <br/>
+
                 <ButtonGroup>
                   
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+                  <Button tag="a" color="primary" wideMobile onClick={handleScroll}>
                     Join the waitlist
                   </Button>
                   {/* <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
@@ -91,8 +102,7 @@ const Hero = ({
                 <br/>
                 <br/>
                 <br/>
-                <br/>
-                <br/>
+
               </div>
             </div>
           </div>
