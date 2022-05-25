@@ -65,7 +65,17 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <div className="reveal-from-bottom" data-reveal-delay="600">
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
                 <ButtonGroup>
+                  
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
                     Join the waitlist
                   </Button>
@@ -73,6 +83,16 @@ const Hero = ({
                     View on Github
                   </Button> */}
                 </ButtonGroup>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
               </div>
             </div>
           </div>
