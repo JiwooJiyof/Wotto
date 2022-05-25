@@ -44,8 +44,9 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
+    /* title: 'Customer testimonials',
     paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    */
   };
 
   return (
@@ -58,7 +59,7 @@ const Testimonial = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
 
-            <div className="tiles-item reveal-from-right" data-reveal-delay="200">
+            {/* <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
@@ -107,7 +108,7 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>
