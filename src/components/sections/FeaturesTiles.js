@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'WOTTO',
+    paragraph: 'The future of saving'
   };
 
   return (
@@ -71,10 +71,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Gamification
                   </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Saving will never be this easy. Replace the boring banking experience with exciting games and rewards.
                   </p>
                 </div>
               </div>
@@ -93,10 +93,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Attractive Rewards
                   </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Get a chance at exclusive rewards up to $10,000 every time you save. More savings equals more rewards. 
                   </p>
                 </div>
               </div>
@@ -115,10 +115,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Zero Risk
                   </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    No loss for customers. Helps build good financial habits using psychology while giving you a chance to win big. 
                   </p>
                 </div>
               </div>
@@ -193,7 +193,7 @@ const FeaturesTiles = ({
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 }
 
