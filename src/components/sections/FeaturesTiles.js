@@ -96,7 +96,7 @@ const FeaturesTiles = ({
                     Attractive Rewards
                   </h4>
                   <p className="m-0 text-sm">
-                    Get a chance at exclusive rewards up to $10,000 every time you save.
+                    Get a chance at exclusive rewards up to $10,000 every time you save. More savings equals more rewards. 
                   </p>
                 </div>
               </div>
@@ -118,7 +118,7 @@ const FeaturesTiles = ({
                     Zero Risk
                   </h4>
                   <p className="m-0 text-sm">
-                    No loss for customers. Just save your money for a chance to win big.
+                    No loss for customers. Helps build good financial habits using psychology while giving you a chance to win big. 
                   </p>
                 </div>
               </div>
