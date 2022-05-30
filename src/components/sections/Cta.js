@@ -92,12 +92,12 @@ const Cta = ({
         >
           <div className="cta-slogan">
             <h3 className="m-0">
-              For previewing layouts and visual?
+              Join the Waitlist
               </h3>
           </div>
           <div className="cta-action">
           <form>
-            <label>Enter your name:
+            <label >Enter your E-mail:
               <input
                 type="text" 
                 value={email}
@@ -105,8 +105,8 @@ const Cta = ({
               />
             </label>
           </form>
-            <button style = {{backgroundColor: "transparent", borderRadius: 0}} onClick = {onSubscribe}>
-              <FaRegArrowAltCircleRight/>
+            <button onClick = {onSubscribe}>
+              <FaRegArrowAltCircleRight />
             </button>
           </div>
         </div>
