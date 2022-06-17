@@ -2,7 +2,7 @@
   "homepage": "https://jiwoojiyof.github.io/Wotto/",
   "name": "open-react-template",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "classnames": "^2.2.6",
     "firebase": "^9.8.1",
