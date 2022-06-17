@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e70683dc.chunk.css",
+    "main.js": "/static/js/main.cdae4062.chunk.js",
+    "main.js.map": "/static/js/main.cdae4062.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b8b9f84b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b8b9f84b.js.map",
+    "static/js/2.383b56a7.chunk.js": "/static/js/2.383b56a7.chunk.js",
+    "static/js/2.383b56a7.chunk.js.map": "/static/js/2.383b56a7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cfa1913be7a8dad189a3c25c9c8b4ea2.js": "/precache-manifest.cfa1913be7a8dad189a3c25c9c8b4ea2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e70683dc.chunk.css.map": "/static/css/main.e70683dc.chunk.css.map",
+    "static/js/2.383b56a7.chunk.js.LICENSE.txt": "/static/js/2.383b56a7.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/static/media/illustration-section-02.63d0555d.svg",
+    "static/media/feature-tile-icon-01.svg": "/static/media/feature-tile-icon-01.0f9928d7.svg",
+    "static/media/feature-tile-icon-02.svg": "/static/media/feature-tile-icon-02.bd39f304.svg",
+    "static/media/feature-tile-icon-03.svg": "/static/media/feature-tile-icon-03.66f37ba5.svg",
+    "static/media/logo.svg": "/static/media/logo.2810a88b.svg",
+    "static/media/saving.jpeg": "/static/media/saving.4f8b4391.jpeg",
+    "static/media/tickets.png": "/static/media/tickets.98ebeb51.png",
+    "static/media/winning.jpeg": "/static/media/winning.36e521ef.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8b9f84b.js",
+    "static/js/2.383b56a7.chunk.js",
+    "static/css/main.e70683dc.chunk.css",
+    "static/js/main.cdae4062.chunk.js"
+  ]
+}
