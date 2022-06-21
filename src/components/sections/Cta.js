@@ -7,7 +7,7 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 // firebase
 import { initializeApp } from "firebase/app";
 import { getFirestore } from 'firebase/firestore';
-import { collection , addDoc } from 'firebase/firestore';
+import { collection, addDoc } from 'firebase/firestore';
 const firebaseConfig = {
   apiKey: "AIzaSyCB1omIp2ZyNOkbTE5S6LA27ZoTEuilJcw",
   authDomain: "wotto-d26be.firebaseapp.com",
@@ -65,7 +65,7 @@ const Cta = ({
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider',
     split && 'cta-split'
-  );  
+  );
 
   const [email, setEmail] = useState("");
 
@@ -78,7 +78,16 @@ const Cta = ({
     const data = {
       email: email
     };
-    addDoc(collection(db,'subscribers'), data)
+    addDoc(collection(db, 'subscribers'), data)
+    alert("your email has been added");
+    setEmail("");
+  };
+
+  const handleKeypress = e => {
+    //it triggers by pressing the enter key
+    if (e.keyCode === 13) {
+      onSubscribe();
+    }
   };
 
   return (
@@ -93,19 +102,23 @@ const Cta = ({
           <div className="cta-slogan">
             <h3 className="m-0">
               Join the Waitlist
-              </h3>
+            </h3>
           </div>
           <div className="cta-action">
-          <form>
-            <label >Enter your E-mail:
-              <input
-                type="text" 
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-            </label>
-          </form>
-            <button onClick = {onSubscribe}>
+            <form onSubmit={e => {
+              e.preventDefault();
+              onSubscribe();
+            }}>
+              <label >Enter your E-mail:
+                <input
+                  type="text"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  onKeyPress={handleKeypress}
+                />
+              </label>
+            </form>
+            <button onClick={onSubscribe}>
               <FaRegArrowAltCircleRight />
             </button>
           </div>
