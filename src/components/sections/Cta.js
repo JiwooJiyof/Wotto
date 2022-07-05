@@ -95,15 +95,17 @@ const Cta = ({
           <div className="cta-slogan">
             <h3 className="m-0">Join the Waitlist</h3>
           </div>
-          <div className="cta-action">
+          <div className="cta-action" style={{ display: "flex" }}>
             <form
               onSubmit={(e) => {
                 e.preventDefault();
                 onSubscribe();
               }}
             >
-              <label style={{}}>
-                <div style={{ color: "black" }}>Enter your E-mail:</div>
+              <label style={{ display: "flex" }}>
+                <h5 style={{ color: "black" }} className="m-0">
+                  Enter your E-mail:
+                </h5>
                 <input
                   type="text"
                   value={email}

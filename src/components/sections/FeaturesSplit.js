@@ -68,11 +68,11 @@ const FeaturesSplit = ({
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   First Step
                 </div>
-                <h3 className="mt-0 mb-12">Save Money in any Account</h3>
+                <h3 className="mt-0 mb-12">Save Money in Your Account</h3>
                 <p className="m-0">
-                  Just save money to any savings account. Then, connect your
-                  savings account to Wotto for us to verify that you have
-                  deposited the money.
+                  Just save money to any partnered banking account. Then,
+                  connect your savings account to Wotto for us to verify that
+                  you have deposited the money.
                 </p>
               </div>
               <div
