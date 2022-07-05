@@ -102,8 +102,8 @@ const Cta = ({
                 onSubscribe();
               }}
             >
-              <label>
-                <div style={{ color: "black" font:12}}>Enter your E-mail:</div>
+              <label style={{}}>
+                <div style={{ color: "black" }}>Enter your E-mail:</div>
                 <input
                   type="text"
                   value={email}
