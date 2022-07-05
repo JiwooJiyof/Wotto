@@ -83,7 +83,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/saving.jpeg")}
+                  src={require("./../../assets/images/first.png")}
                   alt="Features split 01"
                   width={528}
                   height={396}
@@ -116,7 +116,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/tickets.png")}
+                  src={require("./../../assets/images/second.png")}
                   alt="Features split 02"
                   width={528}
                   height={396}
@@ -147,7 +147,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/winning.jpeg")}
+                  src={require("./../../assets/images/third.png")}
                   alt="Features split 03"
                   width={528}
                   height={396}
