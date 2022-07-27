@@ -101,11 +101,11 @@ const FeaturesSplit = ({
                 </div>
                 <h3 className="mt-0 mb-12">Get Rewarded Scratch Tickets</h3>
                 <p className="m-0">
-                  On the Wotto app, you will recieve 1 token for every 25 dollar
-                  that you have saved for a month. With these tokens, you can
-                  exchange them for scratch tickets. Different tiers of scratch
-                  tickets will cost varying amounts of tokens and have varying
-                  rewards.
+                  On the Wotto app, you will recieve 1 token for every 250
+                  dollar that you have saved for a month. With these tokens, you
+                  can exchange them for scratch tickets. Different tiers of
+                  scratch tickets will cost varying amounts of tokens and have
+                  varying rewards.
                 </p>
               </div>
               <div
